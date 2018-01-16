@@ -1,0 +1,335 @@
+
+body{
+  font-family: 'Maven Pro', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.cell {
+  fill: none;
+  pointer-events: all;
+  cursor: pointer;
+
+}
+
+.cell {
+  stroke-width: 4px;
+}
+.cell:hover {
+/*  stroke: black;
+*/  stroke-width: 10px;
+}
+
+#dataviz{
+     margin: 10px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.active .collapsible-header{
+  border-bottom: none;
+  font-weight: 500;
+}
+.collapsible-header{
+font-size: 15px;
+    padding: 12px 10px;
+    text-align: center;
+        display: block;
+  }
+
+.collapsible-body {
+  padding: 0px 10px 16px 10px;
+}
+
+/*.pregunta{
+    font-style: italic;
+    font-size: 20px;
+    color: #bc73f7;
+}*/
+
+/*.respuestas{
+    margin-bottom: 45px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 70px;
+}*/
+.candidato{
+    background-color: gainsboro;
+margin: 4px auto;
+    width: 30%;
+    line-height: 18px;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 11px;
+    color: white;
+    font-size: 15px;
+}
+
+
+table{
+  width: 100%
+}
+
+td{
+  width: 33%;
+  text-align: center;
+      font-size: 13px;
+      color:grey;
+
+          padding: 3px 5px;
+}
+.medium-text{
+      font-size: large;
+}
+
+/* TIPSY */
+
+
+.tipsy { font-size: 11px; position: absolute; padding: 5px; z-index: 100000;
+    font-family: monospace;
+ }
+
+ .tipsy img{
+  max-width:200px;
+}
+
+  .tipsy-inner { background-color: #777; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+
+  /* Rounded corners */
+  .tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+  /* Uncomment for shadow */
+  .tipsy-inner { box-shadow: 3px 3px 5px rgba(0, 0, 0,0.5); -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0,0.5); -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0,0.5); }
+  
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { border-bottom-color: #000; }
+  .tipsy-arrow-s { border-top-color: #000; }
+  .tipsy-arrow-e { border-left-color: #000; }
+  .tipsy-arrow-w { border-right-color: #000; }
+  
+  .tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
+
+  #carousel-wrap {
+/*    border: 1px solid #000;
+*/    width: 100%;
+    overflow: hidden;
+}
+
+#testimonial-list {
+  position: relative;
+    overflow: hidden;
+    padding: 10px;
+    width: 2050px;
+    margin-left: 200px
+}
+#testimonial-list>li {
+    overflow: hidden;
+    padding: 0;
+    width: 400px;
+    display: inline-block;
+}
+
+ul.tabs{
+    background-color: #e91e62;
+
+          margin-bottom: 20px;
+ border-radius: 9px !important;
+overflow-x: hidden;
+}
+
+.tabs .tab{
+      width: 19.5%;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+  color:#fff;
+      padding: 0 9%;
+
+         ;
+}
+
+.tabs .tab a{
+  color:#fff;
+  font-weight: 500;
+      padding: 0 9%;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    background-color: #fff;
+    will-change: left, right;
+}
+
+.menu img{
+    float: left;
+    margin-right: 20px;
+    width: 160px;
+}
+
+.menu h4, .menu p{
+  text-align: left;
+}
+
+label{
+  font-size: 14px;
+  color: black;
+}
+form p {
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: 10px;
+}
+form{
+  margin-bottom: 25px;
+
+  background-color: rgb(248, 250, 251);
+    width: 100%;
+    padding: 10px 9px 19px 9px;
+    border-radius: 8px;
+}
+
+[type="radio"]:checked + label {
+    font-weight: 600;
+}
+
+#respuestodromo{
+  padding: 20px 20px;
+}
+
+.listita{
+
+        padding: 0px 30px !important;
+}
+.listita li{
+    list-style-type: disc !important;
+    margin-bottom: 10px;
+}
+
+footer .col p {
+    padding: 0px 20px;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  shape-rendering: crispEdges;
+
+}
+
+.axis text {
+  fill:grey;
+   font: 16px sans-serif;
+}
+
+
+
+
+        .stop-left {
+                stop-color: red;  /* Indigo */
+            }
+
+            .stop-right {
+                stop-color: green;  /* Teal */
+            }
+
+            .filled {
+                fill: url(#mainGradient);
+            }
+
+            .outlined {
+                fill:   none;
+                stroke: url(#mainGradient);
+                stroke-width: 4;
+            }
+
+
+#respuestodromo h5{
+      margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#respuestodromo code{
+  font-size: 15px;
+    margin-bottom: 14px;
+    display: block;
+}
+
+a:hover , label:hover {
+    text-decoration: underline;
+}
+
+
+svg{
+  display: block;
+    margin: 0px auto;
+    }
+
+.dataviz{
+    position: relative;
+    width: 100%;
+    overflow-x: auto;
+
+      }
+
+
+
+  .pin-top {
+    position: relative;
+  }
+
+  .pin-bottom {
+    position: relative;
+  }
+
+  .pinned {
+    position: fixed !important;
+    z-index: 10000 !important;
+
+        width: 100% !important;
+    left: 0px !important;
+    margin-left: 0 !important;
+  }
+
+  .pinned ul.tabs {
+    height: 34px;
+        padding: 0px 15%;
+  }
+  .pinned li.tab{
+    line-height: 32px;
+    height: 32px;
+  }
+        
+
+
+  ul.tabs {
+    height: 36px !important;
+       
+  }
+li.tab{
+    line-height: 34px !important;
+    height: 34px !important;
+  }
+        
+#selectDistritos{
+     display: inline;
+    min-width: 14%;
+    width: initial;
+    border: 1px solid #e91e62;
+    border-radius: 6px;
+    height: 30px;
+    padding: 0px 6px;
+}
